@@ -3,7 +3,6 @@
   <description>App that uses timed breathing to attempt to cure hiccups.</description>
   <author href="" email="">Jo Clarke</author>
   <content src="index.html"/>
-  <content src="css/index.css"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="permissions" value="none"/>
   <preference name="android-minSdkVersion" value="14"/>
