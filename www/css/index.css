@@ -138,7 +138,7 @@ h1 {
 }
 
 #btns {
-	margin-left: -50px;
+	margin-left: -80px;
 	padding: 2px;
 	text-align: center;
 	position:relative;
@@ -151,7 +151,7 @@ button {
   color: #fff;
   background: black;
   margin: 6px 8px 6px 8px;
-  width: 100px;
+  width: 160px;
   border-radius: 15px;
   font-size: 1.5em;
   text-align: center;
