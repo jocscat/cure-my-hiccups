@@ -32,11 +32,11 @@ body {
     margin:0px;
     padding:0px;
     width:100%;
-	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+	-webkit-animation-name: colorchange; /* Chrome, Safari, Opera */
     -webkit-animation-duration: 30s; /* Chrome, Safari, Opera */
     -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
     -webkit-animation-direction: reverse; /* Chrome, Safari, Opera */
-    animation-name: example;
+    animation-name: colorchange;
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-direction: reverse;
@@ -50,7 +50,7 @@ body {
     min-height:50px;                   /* text area height */
     min-width:100px;                   /* text area width */
     text-align:center;
-    padding:0px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    padding:100px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:0px 0px 0px 0px;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
@@ -59,9 +59,6 @@ body {
 @media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
     .app {
         background-position:left center;
-        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
-        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
-                                      /* offset horizontal: half of image width and text area width */
     }
 }
 
@@ -106,7 +103,7 @@ h1 {
 }
 
 /* Standard syntax */
-@keyframes example {
+@keyframes colorchange {
     from  {background-color:#B2949D;}
     20%  {background-color:#FFF578;}
     40%  {background-color:#FF5F8D;}
@@ -116,7 +113,7 @@ h1 {
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes example {
+@-webkit-keyframes colorchange {
     from {background-color:#B2949D;}
     20%  {background-color:#FFF578;}
     40%  {background-color:#FF5F8D;}
@@ -135,6 +132,7 @@ h1 {
 .step {
     display:none;
 	margin: 6px;
+	font-size: 1.25em;
 }
 
 #btns {
@@ -143,6 +141,7 @@ h1 {
 	text-align: center;
 	position:relative;
     left:50%;
+	width:170px;
 }
 
 button {
@@ -156,5 +155,3 @@ button {
   font-size: 1.5em;
   text-align: center;
 }
-
-
