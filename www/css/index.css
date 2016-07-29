@@ -137,13 +137,21 @@ h1 {
 	margin: 6px;
 }
 
+#btns {
+	margin-left: -50px;
+	padding: 2px;
+	text-align: center;
+	position:relative;
+    left:50%;
+}
+
 button {
   float:center;
   display:none;
   color: #fff;
   background: black;
   margin: 6px 8px 6px 8px;
-  min-width: 88px;
+  width: 100px;
   border-radius: 15px;
   font-size: 1.5em;
   text-align: center;
